@@ -16,10 +16,177 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .home {
   background: url("../img/bg-home.jpg") no-repeat;
   background-position: top center;
   background-size: 100%;
+}
+
+.project-page .navbar {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-page .navbar .navbar-toggler {
+  display: block;
+  float: right;
+}
+
+.project-page .navbar .navbar-toggler:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.project-page .middle {
+  padding-top: 0px;
+}
+
+.project-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+  right: 0px;
+  padding: 40px 20px;
+  left: initial;
+  width: 50vw;
+  bottom: 25vh;
+  overflow: hidden;
+  top: 20vh;
+  background-color: white;
+  text-align: left;
+}
+
+.project-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+  padding: 20px;
+  padding-right: 10vw;
+}
+
+.project-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner span.top-tittle {
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.project-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner h2.title-style {
+  font-size: 45px;
+  line-height: 45px;
+  text-transform: uppercase;
+  width: 80%;
+  color: #333333;
+  margin: 10px 0px 20px 0px;
+}
+
+.project-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .short-description {
+  margin-top: 20px;
+}
+
+.project-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .short-description p {
+  color: #333333;
+  font-size: 13px;
+}
+
+.project-page .description {
+  padding: 50px;
+}
+
+.project-page .description .first-description .inner {
+  padding: 10px;
+}
+
+.project-page .description .first-description .inner h3 {
+  font-size: 120px;
+  margin-bottom: 20px;
+  text-align: right;
+  margin-top: -20px;
+}
+
+.project-page .description .first-description .inner h3 .description-title-min {
+  display: block;
+  font-size: 13px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.project-page .description .first-description .inner p {
+  font-size: 13px;
+}
+
+.project-page .description .frase {
+  padding: 20px;
+  margin: 40px auto;
+}
+
+.project-page .description .frase h4 {
+  text-align: center;
+  line-height: 45px;
+  font-size: 45px;
+}
+
+.project-page .description .last-description .flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+.project-page .description .last-description .flex div {
+  margin: 0px 20px;
+}
+
+.project-page .description .last-description .flex div p {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+.project-page footer {
+  padding: 30px;
+}
+
+.project-page footer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.project-page footer a img {
+  width: 80px;
+  height: auto;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+.project-page footer a:after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-bottom: 1px solid #333333;
+  position: relative;
+  top: -30px;
+}
+
+.project-page footer a:before {
+  content: "";
+  display: block;
+  width: 50%;
+  border-bottom: 1px solid #333333;
+  position: relative;
+  top: -30px;
+}
+
+.project-page footer p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #333333;
+  letter-spacing: 10px;
 }
 
 body {

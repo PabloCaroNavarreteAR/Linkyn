@@ -7,6 +7,8 @@ ul, ol{
     padding-left:0px;
 }
 $h1:60px;
+$h2:45px;
+$p-normal:13px;
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Playfair Display', serif;
@@ -14,7 +16,9 @@ h1,h2,h3,h4,h5,h6{
 .title-style{
     font-family: 'Playfair Display', serif;
 }
-
+.flex{
+    display:flex;
+}
 
 
 .home{
@@ -22,6 +26,148 @@ h1,h2,h3,h4,h5,h6{
     background-position: top center;
     background-size:100%;
 
+}
+.project-page{
+    .navbar{
+        justify-content: space-between;
+        .navbar-toggler{
+            display:block;
+            float:right;
+            &:after{
+                clear:both;
+                content:"";
+                display:block;
+            }
+        }
+    }
+    .middle{
+        padding-top:0px;
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-caption{
+                        right:0px;
+                        padding:40px 20px;
+                        left:initial;
+                        width:50vw;
+                        bottom:25vh;
+                        overflow: hidden;
+                        top:20vh;
+                        background-color:white;
+                        text-align:left;
+                        .inner{
+                            padding:20px;
+                            padding-right:10vw;
+                            span.top-tittle{
+                                color:#333333;
+                                text-transform:uppercase;
+                                letter-spacing: 10px;
+                            }
+                            h2.title-style{
+                                font-size:$h2;
+                                line-height:$h2;
+                                text-transform:uppercase;
+                                width:80%;
+                                color:#333333;
+                                margin:10px 0px 20px 0px;
+                            }
+                            .short-description{
+                                margin-top:20px;
+                                p{
+                                    color:#333333;
+                                    font-size:$p-normal;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .description{
+        padding:50px;
+        .first-description{
+            .inner{
+                padding:10px;
+                h3{
+                    font-size:120px;
+                    margin-bottom:20px;
+                    text-align:right;
+                    margin-top:-20px;
+                    .description-title-min{
+                        display:block;
+                        font-size:$p-normal;
+                        padding-right:20px;
+                        text-align:right;
+                    }
+                }
+                p{
+                    font-size:$p-normal;
+                }
+            }
+        }
+        .frase{
+            padding:20px;
+            margin:40px auto;
+            h4{
+                text-align:center;
+                line-height:$h2;
+                font-size:$h2;
+            }
+        }
+        .last-description{
+            .flex{
+                justify-content: center;
+                padding:20px;
+                div{
+                    margin:0px 20px;
+                    p{
+                        text-align:center;
+                        font-size:$p-normal;
+                        margin-bottom:0px;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        padding:30px;
+        a{
+            display:flex;
+            margin:20px auto;
+            text-align:center;
+            img{
+                width:80px;
+                height:auto;
+                margin-right:2vw;
+                margin-left:2vw;
+            }
+            &:after{
+                content:"";
+                display: block;
+                width:50%;
+                border-bottom:1px solid #333333;
+                position:relative;
+                top:-30px;
+
+            }
+            &:before{
+                content:"";
+                display: block;
+                width:50%;
+                border-bottom:1px solid #333333;
+                position:relative;
+                top:-30px;
+            }
+        }
+        p{
+            text-align:center;
+            text-transform:uppercase;
+            font-size:$p-normal;
+            color:#333333;
+            letter-spacing: 10px;
+        }
+    }
 }
 body{
     padding:0;
