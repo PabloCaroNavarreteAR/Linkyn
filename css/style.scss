@@ -1,0 +1,153 @@
+a{
+    text-decoration:none;
+    color:initial;
+}
+ul, ol{
+    list-style:none;
+    padding-left:0px;
+}
+$h1:60px;
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+}
+.title-style{
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.home{
+    background:url("../img/bg-home.jpg")no-repeat;
+    background-position: top center;
+    background-size:100%;
+
+}
+body{
+    padding:0;
+    margin:0;
+    position:relative;
+    height:100vh;
+    .top{
+        header{
+            padding:20px;
+            a{
+                object{
+                    width:60px;
+                    height:auto;
+                }
+            }
+        }
+    }
+    .middle{
+        padding-top:50px;
+        z-index:2;
+        nav{
+            ul{
+                li{
+                    display:block;
+                    text-align:Center;
+                    a.title-style{
+                        display:block;
+                        line-height:50px;
+                        margin-bottom:10px;
+                        font-size: 50px;
+                        background: -webkit-linear-gradient(#84378C, #E2332D);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        font-weight:bold;
+                        text-transform:uppercase;
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                            text-decoration: dashed;
+                        }
+                    }
+                }
+            }
+        }
+        .content{
+            transform:translateX(-100vw);
+            height:100vh;
+            position:absolute;
+            top:0px;
+            left:0px;
+            right:0px;
+            z-index:1;
+            .navbar{
+                position:fixed;
+                top:0px;
+                width:100%;
+                display:flex;
+                justify-content: space-between;
+                .navbar-toggler{
+                    display:block;
+                    float:right;
+                    margin:10px;
+                    &:after{
+                        clear:both;
+                        content:"";
+                        display:block;
+                    }
+                }
+                .main-menu{
+                    position:absolute;
+                    background:white;
+                    left:0px;
+                    right:0px;
+                    top:0px;
+                    bottom:0px;
+                    height:100vh;
+                    ul{
+                        padding-top:10vh;
+                        display:block;
+                        li{
+                            display:block;
+                        }
+                    }
+                }
+            }
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        a.big-one{
+                            cursor:url("../img/cursor.png"), auto;
+                        }
+                        .carousel-caption{
+                            top:30vh;
+                            bottom:20vh;
+                            left:30vw;
+                            right:30vw;
+                            span.top-tittle{
+                                text-transform:uppercase;
+                                color:white;
+                                font-size:14px;
+                                letter-spacing: 10px;
+                            }
+                            h2{
+                                padding:20px;
+                                font-size:$h1;
+                                text-transform:uppercase;
+                            }
+                        }
+                    }
+                }
+                .carousel-indicators{
+                    bottom:30vh;
+                }
+            }
+        }
+    }
+    .bottom{
+        position:absolute;
+        bottom:0px;
+        width:100%;
+        footer{
+            p{
+                text-transform:uppercase;
+                letter-spacing: 10px;
+                font-size:14px;
+                text-align:Center;
+            }
+        }
+    }
+}

@@ -1,0 +1,164 @@
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+ul, ol {
+  list-style: none;
+  padding-left: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.title-style {
+  font-family: 'Playfair Display', serif;
+}
+
+.home {
+  background: url("../img/bg-home.jpg") no-repeat;
+  background-position: top center;
+  background-size: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 100vh;
+}
+
+body .top header {
+  padding: 20px;
+}
+
+body .top header a object {
+  width: 60px;
+  height: auto;
+}
+
+body .middle {
+  padding-top: 50px;
+  z-index: 2;
+}
+
+body .middle nav ul li {
+  display: block;
+  text-align: Center;
+}
+
+body .middle nav ul li a.title-style {
+  display: block;
+  line-height: 50px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  background: -webkit-linear-gradient(#84378C, #E2332D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .middle nav ul li a.title-style:hover {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+
+body .middle .content {
+  -webkit-transform: translateX(-100vw);
+          transform: translateX(-100vw);
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+body .middle .content .navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .middle .content .navbar .navbar-toggler {
+  display: block;
+  float: right;
+  margin: 10px;
+}
+
+body .middle .content .navbar .navbar-toggler:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+body .middle .content .navbar .main-menu {
+  position: absolute;
+  background: white;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 100vh;
+}
+
+body .middle .content .navbar .main-menu ul {
+  padding-top: 10vh;
+  display: block;
+}
+
+body .middle .content .navbar .main-menu ul li {
+  display: block;
+}
+
+body .middle .content .carousel .carousel-inner .carousel-item a.big-one {
+  cursor: url("../img/cursor.png"), auto;
+}
+
+body .middle .content .carousel .carousel-inner .carousel-item .carousel-caption {
+  top: 30vh;
+  bottom: 20vh;
+  left: 30vw;
+  right: 30vw;
+}
+
+body .middle .content .carousel .carousel-inner .carousel-item .carousel-caption span.top-tittle {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 10px;
+}
+
+body .middle .content .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+  padding: 20px;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+body .middle .content .carousel .carousel-indicators {
+  bottom: 30vh;
+}
+
+body .bottom {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+body .bottom footer p {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 14px;
+  text-align: Center;
+}
+/*# sourceMappingURL=style.css.map */
