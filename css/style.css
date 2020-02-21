@@ -8,6 +8,87 @@ ul, ol {
   padding-left: 0px;
 }
 
+/*icons*/
+.location {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background: url("../img/icons/location.svg") no-repeat;
+  margin: 0px 10px;
+  background-position: center;
+}
+
+.phone {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background: url("../img/icons/phone.svg") no-repeat;
+  margin: 0px 10px;
+  background-position: center;
+}
+
+/*end icons*/
+.btn {
+  border-radius: 0px;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-inst {
+  background: -webkit-gradient(linear, left top, right top, from(#84378c), to(#e2332d));
+  background: linear-gradient(90deg, #84378c, #e2332d);
+  color: white;
+  font-size: 13px;
+  width: 200px;
+  height: 40px;
+}
+
+.btn-inst:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: white;
+}
+
+.BrandLink {
+  background: url("../img/iso.svg");
+  width: 60px;
+  height: 100px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.navbar-brand {
+  background: url("../img/iso-white.svg");
+  width: 60px;
+  height: 100px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.navbar-toggler {
+  background: url("../img/menu.svg");
+  width: 50px;
+  height: 30px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+
+.main-menu .navbar-toggler {
+  background: url("../img/close.svg");
+  width: 60px;
+  height: 30px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
 }
@@ -26,6 +107,31 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/bg-home.jpg") no-repeat;
   background-position: top center;
   background-size: 100%;
+}
+
+.project-page .main-menu {
+  position: absolute;
+  background: url("../img/bg-main-menu.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 100vh;
+}
+
+.project-page .main-menu ul {
+  padding-top: 10vh;
+  display: block;
+}
+
+.project-page .main-menu ul li {
+  display: block;
+}
+
+.project-page .main-menu ul li a {
+  color: White;
 }
 
 .project-page .navbar {
@@ -53,17 +159,13 @@ h1, h2, h3, h4, h5, h6 {
   right: 0px;
   padding: 40px 20px;
   left: initial;
-  width: 50vw;
   bottom: 25vh;
   overflow: hidden;
   top: 20vh;
-  background-color: white;
-  text-align: left;
 }
 
 .project-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
   padding: 20px;
-  padding-right: 10vw;
 }
 
 .project-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner span.top-tittle {
@@ -88,6 +190,10 @@ h1, h2, h3, h4, h5, h6 {
 .project-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .short-description p {
   color: #333333;
   font-size: 13px;
+}
+
+.project-page .bottom footer p {
+  color: white;
 }
 
 .project-page .description {
@@ -189,6 +295,575 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 10px;
 }
 
+.project-detail-page .main-menu {
+  position: absolute;
+  background: url("../img/bg-main-menu.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 100vh;
+}
+
+.project-detail-page .main-menu ul {
+  padding-top: 10vh;
+  display: block;
+}
+
+.project-detail-page .main-menu ul li {
+  display: block;
+}
+
+.project-detail-page .main-menu ul li a {
+  color: White;
+}
+
+.project-detail-page .navbar {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-detail-page .navbar .navbar-toggler {
+  display: block;
+  float: right;
+}
+
+.project-detail-page .navbar .navbar-toggler:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.project-detail-page .middle {
+  padding-top: 0px;
+}
+
+.project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+  right: 0px;
+  padding: 40px 20px;
+  left: initial;
+  width: 50vw;
+  bottom: 25vh;
+  overflow: hidden;
+  top: 20vh;
+  background-color: white;
+  text-align: left;
+}
+
+.project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+  padding: 20px;
+  padding-right: 10vw;
+}
+
+.project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner span.top-tittle {
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner h2.title-style {
+  font-size: 45px;
+  line-height: 45px;
+  text-transform: uppercase;
+  width: 80%;
+  color: #333333;
+  margin: 10px 0px 20px 0px;
+}
+
+.project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .short-description {
+  margin-top: 20px;
+}
+
+.project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .short-description p {
+  color: #333333;
+  font-size: 13px;
+}
+
+.project-detail-page .description {
+  padding: 50px;
+}
+
+.project-detail-page .description .first-description .inner {
+  padding: 10px;
+}
+
+.project-detail-page .description .first-description .inner h3 {
+  font-size: 120px;
+  margin-bottom: 20px;
+  text-align: right;
+  margin-top: -20px;
+}
+
+.project-detail-page .description .first-description .inner h3 .description-title-min {
+  display: block;
+  font-size: 13px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.project-detail-page .description .first-description .inner p {
+  font-size: 13px;
+}
+
+.project-detail-page .description .frase {
+  padding: 20px;
+  margin: 40px auto;
+}
+
+.project-detail-page .description .frase h4 {
+  text-align: center;
+  line-height: 45px;
+  font-size: 45px;
+}
+
+.project-detail-page .description .last-description .flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+.project-detail-page .description .last-description .flex div {
+  margin: 0px 20px;
+}
+
+.project-detail-page .description .last-description .flex div p {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+.project-detail-page footer {
+  padding: 30px;
+}
+
+.project-detail-page footer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.project-detail-page footer a img {
+  width: 80px;
+  height: auto;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+.project-detail-page footer a:after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-bottom: 1px solid #333333;
+  position: relative;
+  top: -30px;
+}
+
+.project-detail-page footer a:before {
+  content: "";
+  display: block;
+  width: 50%;
+  border-bottom: 1px solid #333333;
+  position: relative;
+  top: -30px;
+}
+
+.project-detail-page footer p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #333333;
+  letter-spacing: 10px;
+}
+
+.contact-page .main-menu {
+  position: absolute;
+  background: url("../img/bg-main-menu.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 100vh;
+}
+
+.contact-page .main-menu ul {
+  padding-top: 10vh;
+  display: block;
+}
+
+.contact-page .main-menu ul li {
+  display: block;
+}
+
+.contact-page .main-menu ul li a {
+  color: White;
+}
+
+.contact-page .navbar {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-page .navbar .navbar-toggler {
+  display: block;
+  float: right;
+}
+
+.contact-page .navbar .navbar-toggler:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.contact-page .middle {
+  padding-top: 0px;
+}
+
+.contact-page .middle .navbar .navbar-brand {
+  background: url("../img/iso.svg") no-repeat;
+  background-size: auto 100%;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
+  position: relative;
+  float: right;
+  width: 50vw;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .mapa:after {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(73, 80, 87, 0.45);
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  clear: both;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .mapa iframe {
+  width: 50vw;
+  height: 100vh;
+  float: right;
+  position: relative;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+  left: 0px;
+  padding: 40px 20px;
+  right: initial;
+  width: 50vw;
+  bottom: 0;
+  overflow: hidden;
+  top: 0;
+  background-color: white;
+  text-align: left;
+  overflow: inherit;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+  position: relative;
+  top: 15vh;
+  bottom: 15vh;
+  left: 0;
+  background: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner form.form-contacto .flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner form.form-contacto .flex .form-control {
+  border: none;
+  position: relative;
+  margin-bottom: 20px;
+  height: initial;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner form.form-contacto .flex .form-control label {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  z-index: 1;
+  font-size: 13px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner form.form-contacto .flex .form-control .input {
+  width: 100%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner form.form-contacto .flex .form-control .input:focus {
+  border-image-source: linear-gradient(90deg, #84378c, #e2332d);
+  border-width: 2px;
+  border-image-slice: 1;
+  outline: none;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner form.form-contacto .flex .form-control .input:focus + label {
+  font-size: 12px;
+  top: -3px;
+  left: 20px;
+  z-index: 1;
+  background: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner form.form-contacto .flex .form-control textarea.input {
+  height: 100px;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex p {
+  color: #333333;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner span.top-tittle {
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner h2.title-style {
+  font-size: 45px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 10px 0px 20px 0px;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .short-description {
+  margin-top: 20px;
+}
+
+.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .short-description p {
+  color: #333333;
+  font-size: 13px;
+}
+
+.contact-page .bottom {
+  width: 50vw;
+  bottom: 0px;
+  z-index: 17;
+}
+
+.prensa-page .main-menu {
+  position: absolute;
+  background: url("../img/bg-main-menu.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 100vh;
+}
+
+.prensa-page .main-menu ul {
+  padding-top: 10vh;
+  display: block;
+}
+
+.prensa-page .main-menu ul li {
+  display: block;
+}
+
+.prensa-page .main-menu ul li a {
+  color: White;
+}
+
+.prensa-page .navbar {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.prensa-page .navbar .navbar-toggler {
+  display: block;
+  float: right;
+}
+
+.prensa-page .navbar .navbar-toggler:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.prensa-page .middle {
+  padding-top: 0px;
+}
+
+.prensa-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+  left: 25vw;
+  padding: 40px 20px;
+  right: 25vw;
+  width: auto;
+  bottom: 25vh;
+  overflow: hidden;
+  top: 25vh;
+  background-color: white;
+  text-align: left;
+}
+
+.prensa-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+  background: white;
+  padding: 20px;
+  text-align: Center;
+}
+
+.prensa-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner span.top-tittle {
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.prensa-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner h2.title-style {
+  text-align: Center;
+  font-size: 45px;
+  line-height: 45px;
+  text-transform: uppercase;
+  width: 80%;
+  color: #333333;
+  margin: 10px 0px 20px 0px;
+}
+
+.prensa-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .short-description {
+  margin-top: 20px;
+}
+
+.prensa-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .short-description p {
+  color: #333333;
+  font-size: 13px;
+}
+
+.prensa-page .description {
+  padding: 50px;
+}
+
+.prensa-page .description .first-description .inner {
+  padding: 10px;
+}
+
+.prensa-page .description .first-description .inner h3 {
+  font-size: 120px;
+  margin-bottom: 20px;
+  text-align: right;
+  margin-top: -20px;
+}
+
+.prensa-page .description .first-description .inner h3 .description-title-min {
+  display: block;
+  font-size: 13px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.prensa-page .description .first-description .inner p {
+  font-size: 13px;
+}
+
+.prensa-page .description .frase {
+  padding: 20px;
+  margin: 40px auto;
+}
+
+.prensa-page .description .frase h4 {
+  text-align: center;
+  line-height: 45px;
+  font-size: 45px;
+}
+
+.prensa-page .description .last-description .flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+.prensa-page .description .last-description .flex div {
+  margin: 0px 20px;
+}
+
+.prensa-page .description .last-description .flex div p {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+.prensa-page footer {
+  padding: 30px;
+}
+
+.prensa-page footer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.prensa-page footer a img {
+  width: 80px;
+  height: auto;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+.prensa-page footer a:after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-bottom: 1px solid #333333;
+  position: relative;
+  top: -30px;
+}
+
+.prensa-page footer a:before {
+  content: "";
+  display: block;
+  width: 50%;
+  border-bottom: 1px solid #333333;
+  position: relative;
+  top: -30px;
+}
+
+.prensa-page footer p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #333333;
+  letter-spacing: 10px;
+}
+
+/* Body */
 body {
   padding: 0;
   margin: 0;
@@ -235,13 +910,7 @@ body .middle nav ul li a.title-style:hover {
 }
 
 body .middle .content {
-  -webkit-transform: translateX(-100vw);
-          transform: translateX(-100vw);
   height: 100vh;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
   z-index: 1;
 }
 
@@ -271,12 +940,15 @@ body .middle .content .navbar .navbar-toggler:after {
 
 body .middle .content .navbar .main-menu {
   position: absolute;
-  background: white;
+  background: url("../img/bg-main-menu.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   left: 0px;
   right: 0px;
   top: 0px;
   bottom: 0px;
   height: 100vh;
+  padding: 20px 10px;
 }
 
 body .middle .content .navbar .main-menu ul {
@@ -286,6 +958,10 @@ body .middle .content .navbar .main-menu ul {
 
 body .middle .content .navbar .main-menu ul li {
   display: block;
+}
+
+body .middle .content .navbar .main-menu ul li a {
+  color: White;
 }
 
 body .middle .content .carousel .carousel-inner .carousel-item a.big-one {
