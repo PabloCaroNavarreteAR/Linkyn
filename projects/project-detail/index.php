@@ -4,38 +4,12 @@
         <meta charset="utf-8" />
         <meta lang="es"/>
         <title>Línkyn Real State | Projects</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/bootstrap.css" />
         <link rel="stylesheet" href="../../css/style.css"/>
     </head>
     <body class="project-detail-page">
         <div class="middle">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                <a class="navbar-brand" href="../"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  
-                </button>
-              
-                <div class="collapse main-menu" id="navbarSupportedContent">
-                    <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        
-                    </a>
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link title-style" href="../">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link title-style" href="/#project">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link title-style" href="/contact">Contacto</a>
-                      </li>
-                    <li class="nav-item">
-                      <a class="nav-link title-style" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                  </ul>
-                </div>
-            </nav>
+            <?php include("../../includes/theme/inner/nav.php");?>
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -92,10 +66,7 @@
                 </div>
             </div>
         </div>
-        <footer class="container">
-            <a><img src="../../img/iso.svg"/></a>
-            <p class="title-style">Línkyn - Real State</p>
-        </footer>
+        <?php include("../../includes/theme/inner/child/footer.php");?>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

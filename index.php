@@ -4,8 +4,7 @@
         <meta charset="utf-8" />
         <meta lang="es"/>
         <title>Línkyn - Real State</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/boostrap.css"/>
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="Shortcut Icon" href="./img/icon.png" />
     </head>
@@ -37,7 +36,7 @@
         </div>
         <div class="bottom">
             <footer>
-                <p class="title-style">Línkyn - Real State</p>
+                <img src="img/brand/logotipo.svg" width="150" height="auto" class="d-block m-auto" alt="Línkyn"/>
             </footer>
         </div>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
