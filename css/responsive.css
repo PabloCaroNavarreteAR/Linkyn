@@ -1,3 +1,4 @@
+/* */
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   body.home {
     background-size: cover;
@@ -411,11 +412,14 @@
 }
 
 /* Landscape */
-/* iphone x*/
-/* iphone */
-/* ----------- iPhone X ----------- */
+/* iphone 6,7,8 PLUS */
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .navbar-brand {
+    width: 40px;
+    height: 70px;
+    background-size: cover;
+  }
   .home {
     background-size: cover;
   }
@@ -520,7 +524,9 @@
     background: url("../img/iso-white.svg") no-repeat;
   }
   .contact-page .middle .carousel {
-    height: 100vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .contact-page .middle .carousel .carousel-inner {
     height: 100%;
@@ -537,8 +543,8 @@
   .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
     display: block !important;
     width: auto;
-    left: 2vw;
-    right: 2vw;
+    left: 10vw;
+    right: 10vw;
     top: 20vh;
     bottom: 20vh;
     height: -webkit-fit-content;
@@ -572,6 +578,701 @@
   }
   .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
     top: 15vh;
+    right: 20vw;
+    left: 20vw;
+    padding-top: 0px;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-page .bottom {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  .prensa-page .carousel {
+    height: 100vh;
+  }
+  .prensa-page .carousel .carousel-inner {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item img {
+    height: 100%;
+    width: initial !important;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    right: 5vw !important;
+    left: 5vw !important;
+  }
+  .prensa-page .description .last-description .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .prensa-page .description .last-description .row div {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .project-page .middle .content .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .contact-page .middle .carousel {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    left: 10vw !important;
+    right: 10vw !important;
+    padding-bottom: 0px;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    padding: 0px;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner h2.title-style {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex p span {
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .home {
+    background-size: cover;
+  }
+  .home .middle {
+    height: initial;
+  }
+  .home .middle nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home .middle nav ul li {
+    margin: 10px;
+  }
+  .home .middle nav ul li a.title-style {
+    font-size: 1.8rem;
+  }
+  .project-detail-page .middle .carousel {
+    height: 110vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner {
+    height: 100%;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item img {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    width: 100%;
+    height: auto;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    bottom: 0px;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    padding: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .contact-page .middle .carousel {
+    height: 200vh !important;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
+    width: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa iframe {
+    width: 100%;
+    float: none;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item img {
+    width: 100% !important;
+    height: auto;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .prensa-page .carousel, .prensa-page .carousel-inner, .prensa-page .carousel-item {
+    height: initial !important;
+    overflow: scroll;
+  }
+  .prensa-page .carousel .carousel-inner {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item img {
+    height: auto;
+    width: 100% !important;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 20vh;
+    display: block !important;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    right: 5vw !important;
+    left: 5vw !important;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .navbar-brand {
+    width: 40px;
+    height: 70px;
+    background-size: cover;
+  }
+  .home {
+    background-size: cover;
+  }
+  .home .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home .middle {
+    -ms-flex-item-align: center;
+        align-self: center;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .home .middle nav ul li a.title-style {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .project-page .middle .content .carousel, .project-page .middle .content .carousel-inner, .project-page .middle .content .carousel-item {
+    height: 100vh;
+  }
+  .project-page .middle .content .carousel img, .project-page .middle .content .carousel-inner img, .project-page .middle .content .carousel-item img {
+    width: initial !important;
+    height: 100%;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .project-page .middle .content .carousel .carousel-indicators {
+    bottom: 20vh;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    left: 5vw;
+    top: 20vh;
+    right: 5vw;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption span, .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+    text-align: center;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item img {
+    width: 100% !important;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .project-detail-page .middle .carousel {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    height: 100%;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    width: auto;
+    right: 5vw;
+    left: 5vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .project-detail-page .description .first-description .row div .inner h3 {
+    font-size: 90px;
+  }
+  .project-detail-page .description .first-description .row div .inner p {
+    text-align: center;
+  }
+  .contact-page .middle nav.navbar .navbar-brand {
+    background: url("../img/iso-white.svg") no-repeat;
+  }
+  .contact-page .middle .carousel {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contact-page .middle .carousel .carousel-inner {
+    height: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item img {
+    width: 100% !important;
+    height: auto;
+    -webkit-transform: translateX(0vh);
+            transform: translateX(0vh);
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    width: auto;
+    left: 0vw;
+    right: 0vw;
+    top: 0vh;
+    bottom: 20vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: relative;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    position: relative;
+    top: 0;
+  }
+  .contact-page .description {
+    height: initial;
+  }
+  .contact-page .description .last-description .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-page .description .last-description .row div {
+    width: 100%;
+    max-width: initial !important;
+    margin-bottom: 10px;
+  }
+  .contact-page .middle .carousel {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
+    width: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa iframe {
+    width: 100%;
+    float: none;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner h2.title-style {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex p {
+    font-size: 0.8rem;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex p span {
+    display: block;
+    margin: auto;
+  }
+  .contact-page .bottom {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  .prensa-page .carousel {
+    height: 100vh;
+  }
+  .prensa-page .carousel .carousel-inner {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item img {
+    height: 100%;
+    width: initial !important;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    right: 5vw !important;
+    left: 5vw !important;
+  }
+  .prensa-page .description .last-description .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .prensa-page .description .last-description .row div {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .project-page .middle .content .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  body .middle nav .main-menu ul li a {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  body .middle nav .main-menu ul li a {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+  .home {
+    background-size: cover;
+  }
+  .home .middle {
+    height: initial;
+  }
+  .home .middle nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home .middle nav ul li {
+    margin: 10px;
+  }
+  .home .middle nav ul li a.title-style {
+    font-size: 1.5rem;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+    font-size: 45px;
+    padding: 10px;
+  }
+  .project-detail-page .middle .carousel {
+    height: 130vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner {
+    height: 100%;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item img {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    width: 100%;
+    height: auto;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    bottom: 0px;
+    top: 30vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    padding: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .contact-page .middle .carousel {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: -50vh;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .flex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
+    width: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa iframe {
+    width: 100%;
+    float: none;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item img {
+    width: 100% !important;
+    height: auto;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .prensa-page .carousel, .prensa-page .carousel-inner, .prensa-page .carousel-item {
+    height: initial !important;
+    overflow: scroll;
+  }
+  .prensa-page .carousel .carousel-inner {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item img {
+    height: auto;
+    width: 100% !important;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 20vh;
+    display: block !important;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    right: 5vw !important;
+    left: 5vw !important;
+  }
+}
+
+/*  */
+/* iphone x*/
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .navbar-brand {
+    width: 40px;
+    height: 70px;
+    background-size: cover;
+  }
+  .home {
+    background-size: cover;
+  }
+  .home .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home .middle {
+    -ms-flex-item-align: center;
+        align-self: center;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .home .middle nav ul li a.title-style {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .project-page .middle .content .carousel, .project-page .middle .content .carousel-inner, .project-page .middle .content .carousel-item {
+    height: 100vh;
+  }
+  .project-page .middle .content .carousel img, .project-page .middle .content .carousel-inner img, .project-page .middle .content .carousel-item img {
+    width: initial !important;
+    height: 100%;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .project-page .middle .content .carousel .carousel-indicators {
+    bottom: 20vh;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    left: 5vw;
+    top: 20vh;
+    right: 5vw;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption span, .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+    text-align: center;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item img {
+    width: 100% !important;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .project-detail-page .middle .carousel {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    height: 100%;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    width: auto;
+    right: 5vw;
+    left: 5vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .project-detail-page .description .first-description .row div .inner h3 {
+    font-size: 90px;
+  }
+  .project-detail-page .description .first-description .row div .inner p {
+    text-align: center;
+  }
+  .contact-page .middle nav.navbar .navbar-brand {
+    background: url("../img/iso-white.svg") no-repeat;
+  }
+  .contact-page .middle .carousel {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contact-page .middle .carousel .carousel-inner {
+    height: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    height: 100%;
+    -webkit-transform: translateX(-100vh);
+            transform: translateX(-100vh);
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    width: auto;
+    left: 10vw;
+    right: 10vw;
+    top: 20vh;
+    bottom: 20vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    position: relative;
+    top: 0;
+  }
+  .contact-page .description {
+    height: initial;
+  }
+  .contact-page .description .last-description .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-page .description .last-description .row div {
+    width: 100%;
+    max-width: initial !important;
+    margin-bottom: 10px;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
+    width: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa iframe {
+    width: 100%;
+    float: none;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 15vh;
+    right: 20vw;
+    left: 20vw;
     padding-top: 0px;
   }
   .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex {
@@ -628,6 +1329,32 @@
     -webkit-transform: translateX(-100vw);
             transform: translateX(-100vw);
   }
+  .contact-page .middle .carousel {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    left: 10vw !important;
+    right: 10vw !important;
+    padding-bottom: 0px;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    padding: 0px;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner h2.title-style {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex p span {
+    display: block;
+    margin: auto;
+  }
 }
 
 /* Landscape */
@@ -677,11 +1404,7 @@
     width: fit-content;
   }
   .contact-page .middle .carousel {
-    height: auto;
-    overflow: scroll;
-  }
-  .contact-page .middle .carousel .carousel-inner .carousel-item {
-    overflow: scroll;
+    height: 200vh !important;
   }
   .contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
     width: 100%;
@@ -726,6 +1449,10 @@
 /*  */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  h2, h3, h4, h5, h6, .title-style.nav-link {
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+  }
   .home {
     background-size: cover;
   }
@@ -781,13 +1508,15 @@
             transform: translateX(0px);
   }
   .project-detail-page .middle .carousel {
-    height: 100vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .project-detail-page .middle .carousel .carousel-inner {
-    height: 100vh;
+    height: 100%;
   }
   .project-detail-page .middle .carousel .carousel-inner .carousel-item {
-    height: 100vh;
+    height: 100%;
   }
   .project-detail-page .middle .carousel .carousel-inner .carousel-item img {
     width: initial !important;
@@ -805,6 +1534,7 @@
     height: fit-content;
   }
   .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    padding: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -821,7 +1551,8 @@
     text-align: center;
   }
   .project-detail-page .description .first-description .row div .inner h3 {
-    font-size: 90px;
+    font-size: 70px !important;
+    line-height: 70px !important;
   }
   .project-detail-page .description .first-description .row div .inner p {
     text-align: center;
@@ -830,7 +1561,9 @@
     background: url("../img/iso-white.svg") no-repeat;
   }
   .contact-page .middle .carousel {
-    height: 100vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .contact-page .middle .carousel .carousel-inner {
     height: 100%;
@@ -839,21 +1572,26 @@
     height: 100%;
   }
   .contact-page .middle .carousel .carousel-inner .carousel-item img {
-    width: initial !important;
-    height: 100%;
-    -webkit-transform: translateX(-100vh);
-            transform: translateX(-100vh);
+    width: 100% !important;
+    height: auto;
+    -webkit-transform: translateX(0vh);
+            transform: translateX(0vh);
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
+    float: none;
+    height: 50vh;
   }
   .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
     display: block !important;
     width: auto;
-    left: 2vw;
-    right: 2vw;
-    top: 20vh;
+    left: 0;
+    right: 0;
+    top: 0;
     bottom: 20vh;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    position: relative;
   }
   .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
     position: relative;
@@ -881,7 +1619,7 @@
     float: none;
   }
   .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
-    top: 15vh;
+    top: 0vh;
     padding-top: 0px;
   }
   .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex {
@@ -896,7 +1634,9 @@
     text-align: center;
   }
   .prensa-page .carousel {
-    height: 100vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .prensa-page .carousel .carousel-inner {
     height: 100%;
@@ -917,6 +1657,15 @@
     height: fit-content;
     right: 5vw !important;
     left: 5vw !important;
+  }
+  .prensa-page .description {
+    padding: 10px;
+  }
+  .prensa-page .description .frase {
+    padding: 10px;
+  }
+  .prensa-page .description .frase h4 {
+    font-size: 2rem;
   }
   .prensa-page .description .last-description .row {
     -webkit-box-orient: vertical;
@@ -963,7 +1712,9 @@
     font-size: 1.8rem;
   }
   .project-detail-page .middle .carousel {
-    height: 110vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .project-detail-page .middle .carousel .carousel-inner {
     height: 100%;
@@ -993,6 +1744,10 @@
   .contact-page .middle .carousel .carousel-inner .carousel-item {
     overflow: scroll;
   }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    right: 10vw;
+    left: 10vw;
+  }
   .contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
     width: 100%;
   }
@@ -1006,30 +1761,37 @@
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
   }
-  .prensa-page .carousel, .prensa-page .carousel-inner, .prensa-page .carousel-item {
-    height: initial !important;
+  .prensa-page .middle .carousel, .prensa-page .middle .carousel-inner, .prensa-page .middle .carousel-item {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
     overflow: scroll;
   }
-  .prensa-page .carousel .carousel-inner {
+  .prensa-page .middle .carousel .carousel-inner {
     height: 100%;
   }
-  .prensa-page .carousel .carousel-inner .carousel-item {
+  .prensa-page .middle .carousel .carousel-inner .carousel-item {
     height: 100%;
   }
-  .prensa-page .carousel .carousel-inner .carousel-item img {
-    height: auto;
-    width: 100% !important;
+  .prensa-page .middle .carousel .carousel-inner .carousel-item img {
+    height: 100%;
+    width: initial !important;
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
   }
-  .prensa-page .carousel .carousel-inner .carousel-item .carousel-caption {
-    top: 20vh;
+  .prensa-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 40vh;
     display: block !important;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    right: 5vw !important;
-    left: 5vw !important;
+    right: 10vw !important;
+    left: 10vw !important;
+    padding-top: 0px;
+  }
+  .prensa-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner h2.title-style {
+    font-size: 2rem;
+    line-height: 2rem;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

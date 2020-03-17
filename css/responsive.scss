@@ -1,3 +1,7 @@
+
+
+
+/* */
 @media only screen 
   and (min-device-width: 1366px) 
   and (max-device-width: 1366px) 
@@ -526,15 +530,17 @@
 
 }
 
-/* iphone x*/
-/* iphone */
-/* ----------- iPhone X ----------- */
-
+/* iphone 6,7,8 PLUS */
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    .navbar-brand{
+        width:40px;
+        height:70px;
+        background-size:cover;
+    }
     .home{
           background-size:cover;
           .top{
@@ -651,7 +657,7 @@
                 }
             }
             .carousel{
-                height:100vh;
+                height:fit-content;
                 .carousel-inner{
                     height:100%;
                     .carousel-item{
@@ -664,8 +670,8 @@
                         .carousel-caption{
                             display: block!important;
                             width: auto;
-                            left: 2vw;
-                            right: 2vw;
+                            left: 10vw;
+                            right: 10vw;
                             top: 20vh;
                             bottom: 20vh;
                             height: fit-content;
@@ -706,6 +712,839 @@
                         }
                         .carousel-caption{
                             top:15vh;
+                            right:20vw;
+                            left:20vw;
+                            padding-top:0px;
+                            .inner{
+                                .flex{
+                                    flex-direction: column;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bottom{
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .prensa-page{
+        .carousel{
+            height:100vh;
+            .carousel-inner{
+                height:100%;
+                .carousel-item{
+                    height:100%;
+                    img{
+                        height:100%;
+                        width:initial!important;
+                        transform:translateX(-100vw);
+                    }
+                    .carousel-caption{
+                        display:block!important;
+                        height:fit-content;
+                        right:5vw!important;
+                        left:5vw!important;
+                    }
+                }
+            }
+        }
+        .description{
+            .last-description{
+                .row{
+                    flex-direction: column;
+                    div{
+                        width:100%;
+                        max-width:100%;
+                        margin-bottom:10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Portrait */
+@media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .project-page{
+        .middle{
+            .content{
+                .carousel{
+                    .carousel-inner{
+                        .carousel-item{
+                            img{
+                                width:initial!important;
+                                transform:translateX(-100vw);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact-page{
+        .middle{
+            .carousel{
+                height:fit-content;
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            left:10vw!important;
+                            right:10vw!important;
+                            padding-bottom:0px;
+                            .inner{
+                                padding:0px;
+                                h2.title-style{
+                                    font-size:2rem;
+                                    line-height:2rem;
+                                }
+                                .flex{
+                                    align-items: center;
+                                    p{
+                                        span{
+                                           display:block;
+                                           margin:auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .home{
+          background-size:cover;
+          .middle{
+              height:initial;
+              nav{
+                  ul{
+                      display: flex;
+                      justify-content: center;
+                      li{
+                          margin:10px;
+                          a.title-style{
+                            font-size:1.8rem;
+
+                          }
+                      }
+                  }
+              }
+          }
+    }
+    .project-detail-page{
+        .middle{
+            .carousel{
+                height:110vh;
+                .carousel-inner{
+                    height: 100%;
+                    .carousel-item{
+                        height: 100%;
+                        img{
+                            transform:translateX(0px);
+                            width:100%;
+                            height:auto;
+                        }
+                        .carousel-caption{
+                            bottom:0px;
+                            .inner{
+                                padding:0;
+                                width:fit-content;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact-page{
+        .middle{
+            .carousel{
+                height:200vh!important;
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            
+                        }
+                        .mapa{
+                            width:100%;
+                            iframe{
+                                width:100%;
+                                float:none;
+                            }
+                        }
+                        img{
+                            width:100%!important;
+                            height:auto;
+                            transform:translateX(0px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .prensa-page{
+        .carousel, .carousel-inner, .carousel-item{
+            height:initial!important;
+            overflow: scroll;
+        }
+        .carousel{
+            .carousel-inner{
+                height:100%;
+                .carousel-item{
+                    height:100%;
+                    img{
+                        height:auto;
+                        width:100%!important;
+                        transform:translateX(0px);
+                    }
+                    .carousel-caption{
+                        top:20vh;
+                        display:block!important;
+                        height:fit-content;
+                        right:5vw!important;
+                        left:5vw!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .navbar-brand{
+        width:40px;
+        height:70px;
+        background-size:cover;
+    }
+    .home{
+          background-size:cover;
+          .top{
+              display:flex;
+              align-content: center;
+              justify-content: center;
+          }
+          .middle{
+            align-self: center;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+              nav{
+                  ul{
+                      li{
+                          a.title-style{
+                              font-size:2rem;
+                              line-height:2rem;
+                          }
+                      }
+                  }
+              }
+          }
+    }
+    .project-page{
+        .middle{
+            .content{
+                .carousel, .carousel-inner, .carousel-item{
+                    height:100vh;
+                    img{
+                        width:initial!important;
+                        height:100%;
+                        transform:translateX(-100vw);
+                    }
+                }
+                .carousel{
+                    .carousel-indicators{
+                        bottom:20vh;
+                    }
+                    .carousel-inner{
+                        .carousel-item{
+                            .carousel-caption{
+                                display:block!important;
+                                left:5vw;
+                                top:20vh;
+                                right:5vw;
+                                span, h2{
+                                    text-align: center;
+                                }
+                            }
+                            img{
+                                width: 100%!important;
+                                transform: translateX(0px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .project-detail-page{
+        .middle{
+            .carousel{
+                height:100vh;
+                .carousel-inner{
+                    height:100vh;
+                    .carousel-item{
+                        height:100vh;
+                        img{
+                            width:initial!important;
+                            height:100%;
+                            transform:translateX(-100vw);
+                        }
+                        .carousel-caption{
+                            display: block!important;
+                            width: auto;
+                            right: 5vw;
+                            left: 5vw;
+                            height: fit-content;
+                            .inner{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                            }                        
+                        }
+                    }
+                }
+            }
+        }
+        .description{
+            .first-description{
+                .row{
+                    div{
+                        .inner{
+                            h3{
+                                font-size:90px;
+                            }
+                            p{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact-page{
+        .middle{
+            nav.navbar{
+                .navbar-brand{
+                    background:url('../img/iso-white.svg') no-repeat;
+                }
+            }
+            .carousel{
+                height:fit-content;
+                .carousel-inner{
+                    height:100%;
+                    .carousel-item{
+                        height:100%;
+                        img{
+                            width:100%!important;
+                            height:auto;
+                            transform:translateX(0vh);
+                        }
+                        .carousel-caption{
+                            display: block!important;
+                            width: auto;
+                            left: 0vw;
+                            right: 0vw;
+                            top: 0vh;
+                            bottom: 20vh;
+                            height: fit-content;
+                            position:relative;
+                            .inner{
+                                position:relative;
+                                top:0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .description{
+            height:initial;
+            .last-description{
+                .row{
+                    flex-direction: column;
+                    div{
+                        width:100%;
+                        max-width:initial!important;
+                        margin-bottom:10px;
+                    }
+                }
+            }
+        }
+    }
+    .contact-page{
+        .middle{
+            .carousel{
+                height:fit-content;
+                .carousel-inner{
+                    .carousel-item{
+                        .mapa{
+                            width:100%;
+                            iframe{
+                                width:100%;
+                                float:none;
+                            }
+                        }
+                        .carousel-caption{
+                            .inner{
+                                h2.title-style{
+                                    font-size:2rem;
+                                    line-height:2rem;
+                                }
+                                .flex{
+                                    flex-direction: column;
+                                    p{
+                                        font-size:0.8rem;
+                                        span{
+                                            display:block;
+                                            margin:auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bottom{
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .prensa-page{
+        .carousel{
+            height:100vh;
+            .carousel-inner{
+                height:100%;
+                .carousel-item{
+                    height:100%;
+                    img{
+                        height:100%;
+                        width:initial!important;
+                        transform:translateX(-100vw);
+                    }
+                    .carousel-caption{
+                        display:block!important;
+                        height:fit-content;
+                        right:5vw!important;
+                        left:5vw!important;
+                    }
+                }
+            }
+        }
+        .description{
+            .last-description{
+                .row{
+                    flex-direction: column;
+                    div{
+                        width:100%;
+                        max-width:100%;
+                        margin-bottom:10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .project-page{
+        .middle{
+            .content{
+                .carousel{
+                    .carousel-inner{
+                        .carousel-item{
+                            img{
+                                width:initial!important;
+                                transform:translateX(-100vw);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    body{
+        .middle{
+            nav{
+                .main-menu{
+                    ul{
+                        li{
+                            a{
+                                font-size:1.8rem;
+                                line-height:1.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    body{
+        .middle{
+            nav{
+                .main-menu{
+                    ul{
+                        li{
+                            a{
+                                font-size:1.8rem;
+                                line-height:1.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .home{
+          background-size:cover;
+          .middle{
+              height:initial;
+              nav{
+                  ul{
+                      display: flex;
+                      justify-content: center;
+                      li{
+                          margin:10px;
+                          a.title-style{
+                            font-size:1.5rem;
+
+                          }
+                      }
+                  }
+              }
+          }
+    }
+    .project-page{
+        .middle{
+            .content{
+                .carousel{
+                    .carousel-inner{
+                        .carousel-item{
+                            .carousel-caption{
+                                h2{
+                                    font-size:45px;
+                                    padding:10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .project-detail-page{
+        .middle{
+            .carousel{
+                height:130vh;
+                .carousel-inner{
+                    height: 100%;
+                    .carousel-item{
+                        height: 100%;
+                        img{
+                            transform:translateX(0px);
+                            width:100%;
+                            height:auto;
+                        }
+                        .carousel-caption{
+                            bottom:0px;
+                            top:30vh;
+                            .inner{
+                                padding:0;
+                                width:fit-content;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact-page{
+        .middle{
+            .carousel{
+                height:fit-content;
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            top:-50vh;
+                            .flex{
+                                flex-direction: row;
+                            }
+                        }
+                        .mapa{
+                            width:100%;
+                            iframe{
+                                width:100%;
+                                float:none;
+                            }
+                        }
+                        img{
+                            width:100%!important;
+                            height:auto;
+                            transform:translateX(0px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .prensa-page{
+        .carousel, .carousel-inner, .carousel-item{
+            height:initial!important;
+            overflow: scroll;
+        }
+        .carousel{
+            .carousel-inner{
+                height:100%;
+                .carousel-item{
+                    height:100%;
+                    img{
+                        height:auto;
+                        width:100%!important;
+                        transform:translateX(0px);
+                    }
+                    .carousel-caption{
+                        top:20vh;
+                        display:block!important;
+                        height:fit-content;
+                        right:5vw!important;
+                        left:5vw!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*  */
+/* iphone x*/
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .navbar-brand{
+        width:40px;
+        height:70px;
+        background-size:cover;
+    }
+    .home{
+          background-size:cover;
+          .top{
+              display:flex;
+              align-content: center;
+              justify-content: center;
+          }
+          .middle{
+            align-self: center;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+              nav{
+                  ul{
+                      li{
+                          a.title-style{
+                              font-size:2rem;
+                              line-height:2rem;
+                          }
+                      }
+                  }
+              }
+          }
+    }
+    .project-page{
+        .middle{
+            .content{
+                .carousel, .carousel-inner, .carousel-item{
+                    height:100vh;
+                    img{
+                        width:initial!important;
+                        height:100%;
+                        transform:translateX(-100vw);
+                    }
+                }
+                .carousel{
+                    .carousel-indicators{
+                        bottom:20vh;
+                    }
+                    .carousel-inner{
+                        .carousel-item{
+                            .carousel-caption{
+                                display:block!important;
+                                left:5vw;
+                                top:20vh;
+                                right:5vw;
+                                span, h2{
+                                    text-align: center;
+                                }
+                            }
+                            img{
+                                width: 100%!important;
+                                transform: translateX(0px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .project-detail-page{
+        .middle{
+            .carousel{
+                height:100vh;
+                .carousel-inner{
+                    height:100vh;
+                    .carousel-item{
+                        height:100vh;
+                        img{
+                            width:initial!important;
+                            height:100%;
+                            transform:translateX(-100vw);
+                        }
+                        .carousel-caption{
+                            display: block!important;
+                            width: auto;
+                            right: 5vw;
+                            left: 5vw;
+                            height: fit-content;
+                            .inner{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                            }                        
+                        }
+                    }
+                }
+            }
+        }
+        .description{
+            .first-description{
+                .row{
+                    div{
+                        .inner{
+                            h3{
+                                font-size:90px;
+                            }
+                            p{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact-page{
+        .middle{
+            nav.navbar{
+                .navbar-brand{
+                    background:url('../img/iso-white.svg') no-repeat;
+                }
+            }
+            .carousel{
+                height:fit-content;
+                .carousel-inner{
+                    height:100%;
+                    .carousel-item{
+                        height:100%;
+                        img{
+                            width:initial!important;
+                            height:100%;
+                            transform:translateX(-100vh);
+                        }
+                        .carousel-caption{
+                            display: block!important;
+                            width: auto;
+                            left: 10vw;
+                            right: 10vw;
+                            top: 20vh;
+                            bottom: 20vh;
+                            height: fit-content;
+                            .inner{
+                                position:relative;
+                                top:0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .description{
+            height:initial;
+            .last-description{
+                .row{
+                    flex-direction: column;
+                    div{
+                        width:100%;
+                        max-width:initial!important;
+                        margin-bottom:10px;
+                    }
+                }
+            }
+        }
+    }
+    .contact-page{
+        .middle{
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        .mapa{
+                            width:100%;
+                            iframe{
+                                width:100%;
+                                float:none;
+                            }
+                        }
+                        .carousel-caption{
+                            top:15vh;
+                            right:20vw;
+                            left:20vw;
                             padding-top:0px;
                             .inner{
                                 .flex{
@@ -781,6 +1620,38 @@
             }
         }
     }
+    .contact-page{
+        .middle{
+            .carousel{
+                height:fit-content;
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            left:10vw!important;
+                            right:10vw!important;
+                            padding-bottom:0px;
+                            .inner{
+                                padding:0px;
+                                h2.title-style{
+                                    font-size:2rem;
+                                    line-height:2rem;
+                                }
+                                .flex{
+                                    align-items: center;
+                                    p{
+                                        span{
+                                           display:block;
+                                           margin:auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* Landscape */
@@ -836,11 +1707,12 @@
     .contact-page{
         .middle{
             .carousel{
-                height:auto;
-                overflow: scroll;
+                height:200vh!important;
                 .carousel-inner{
                     .carousel-item{
-                        overflow: scroll;
+                        .carousel-caption{
+                            
+                        }
                         .mapa{
                             width:100%;
                             iframe{
@@ -894,6 +1766,10 @@
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    h2,h3,h4,h5,h6, .title-style.nav-link{
+        font-size:2rem!important;
+        line-height: 2rem!important;
+    }
     .home{
           background-size:cover;
           .top{
@@ -957,11 +1833,11 @@
     .project-detail-page{
         .middle{
             .carousel{
-                height:100vh;
+                height:fit-content;
                 .carousel-inner{
-                    height:100vh;
+                    height:100%;
                     .carousel-item{
-                        height:100vh;
+                        height:100%;
                         img{
                             width:initial!important;
                             height:100%;
@@ -974,6 +1850,7 @@
                             left: 5vw;
                             height: fit-content;
                             .inner{
+                                padding:0px;
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
@@ -991,7 +1868,8 @@
                     div{
                         .inner{
                             h3{
-                                font-size:90px;
+                                font-size:70px!important;
+                                line-height: 70px!important;
                             }
                             p{
                                 text-align: center;
@@ -1010,24 +1888,29 @@
                 }
             }
             .carousel{
-                height:100vh;
+                height:fit-content;
                 .carousel-inner{
                     height:100%;
                     .carousel-item{
                         height:100%;
                         img{
-                            width:initial!important;
-                            height:100%;
-                            transform:translateX(-100vh);
+                            width:100%!important;
+                            height:auto;
+                            transform:translateX(0vh);
+                        }
+                        .mapa{
+                            float:none;
+                            height:50vh;
                         }
                         .carousel-caption{
                             display: block!important;
                             width: auto;
-                            left: 2vw;
-                            right: 2vw;
-                            top: 20vh;
+                            left: 0;
+                            right: 0;
+                            top: 0;
                             bottom: 20vh;
                             height: fit-content;
+                            position:relative;
                             .inner{
                                 position:relative;
                                 top:0;
@@ -1064,7 +1947,7 @@
                             }
                         }
                         .carousel-caption{
-                            top:15vh;
+                            top:0vh;
                             padding-top:0px;
                             .inner{
                                 .flex{
@@ -1084,7 +1967,7 @@
     }
     .prensa-page{
         .carousel{
-            height:100vh;
+            height:fit-content;
             .carousel-inner{
                 height:100%;
                 .carousel-item{
@@ -1104,6 +1987,13 @@
             }
         }
         .description{
+            padding:10px;
+            .frase{
+                padding:10px;
+                h4{
+                    font-size:2rem;
+                }
+            }
             .last-description{
                 .row{
                     flex-direction: column;
@@ -1148,6 +2038,7 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+    
     .home{
           background-size:cover;
           .middle{
@@ -1170,7 +2061,7 @@
     .project-detail-page{
         .middle{
             .carousel{
-                height:110vh;
+                height:fit-content;
                 .carousel-inner{
                     height: 100%;
                     .carousel-item{
@@ -1200,6 +2091,10 @@
                 .carousel-inner{
                     .carousel-item{
                         overflow: scroll;
+                        .carousel-caption{
+                            right:10vw;
+                            left:10vw;
+                        }
                         .mapa{
                             width:100%;
                             iframe{
@@ -1218,29 +2113,41 @@
         }
     }
     .prensa-page{
-        .carousel, .carousel-inner, .carousel-item{
-            height:initial!important;
-            overflow: scroll;
-        }
-        .carousel{
-            .carousel-inner{
-                height:100%;
-                .carousel-item{
+        .middle{
+            .carousel, .carousel-inner, .carousel-item{
+                height:fit-content!important;
+                overflow: scroll;
+            }
+            .carousel{
+                .carousel-inner{
                     height:100%;
-                    img{
-                        height:auto;
-                        width:100%!important;
-                        transform:translateX(0px);
-                    }
-                    .carousel-caption{
-                        top:20vh;
-                        display:block!important;
-                        height:fit-content;
-                        right:5vw!important;
-                        left:5vw!important;
+                    .carousel-item{
+                        height:100%;
+                        img{
+                            height:100%;
+                            width:initial!important;
+                            transform:translateX(0px);
+                        }
+                        .carousel-caption{
+                            top:40vh;
+                            display:block!important;
+                            height:fit-content;
+                            right:10vw!important;
+                            left:10vw!important;
+                            padding-top:0px;
+                            .inner{
+                                h2.title-style{
+                                    font-size:2rem;
+                                    line-height:2rem;
+                                }
+                            }
+                        }
                     }
                 }
             }
+        }
+        .description{
+            
         }
     }
 }
