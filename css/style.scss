@@ -93,7 +93,7 @@ $p-normal:13px;
 h1,h2,h3,h4,h5,h6{
     font-family: 'Playfair Display', serif;
 }
-.title-style{
+.title-style, .top-tittle{
     font-family: 'Playfair Display', serif;
 }
 .flex{
@@ -460,6 +460,7 @@ h1,h2,h3,h4,h5,h6{
                                             transition:0.3s ease-in-out;
                                             height:40px;
                                             line-height:40px;
+                                            border:1px solid #333333;
                                             font-size:$p-normal;
                                             padding:10px;
                                             &:focus{

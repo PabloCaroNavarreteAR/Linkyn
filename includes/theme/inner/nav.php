@@ -15,7 +15,10 @@
             <a class="nav-link title-style" href="./">Inicio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link title-style" id="btnProyectos" href="#projects">Proyectos</a>
+            <a class="nav-link title-style" href="about">Nosotros</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link title-style" href="#projects">Proyectos</a>
         </li>
         <li class="nav-item">
             <a class="nav-link title-style" href="contact">Contacto</a>

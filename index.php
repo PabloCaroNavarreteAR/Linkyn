@@ -4,9 +4,11 @@
         <meta charset="utf-8" />
         <meta lang="es"/>
         <title>Línkyn - Real State</title>
-        <link rel="stylesheet" href="css/boostrap.css"/>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
         <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
         <link rel="Shortcut Icon" href="./img/icon.png" />
+        <meta name="viewport" content="width=device-width, user-scalable=no">
     </head>
     <body class="home">
         <div class="top">
@@ -17,7 +19,7 @@
             </header>
         </div>
         <div class="middle">
-            <nav>
+            <nav class="container">
                 <ul>
                     <li>
                         <a class="title-style" href="projects" title="Projects">Proyectos</a>

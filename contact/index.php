@@ -4,9 +4,10 @@
         <meta charset="utf-8" />
         <meta lang="es"/>
         <title>Línkyn Real State | Contacto</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/bootstrap.css" />
         <link rel="stylesheet" href="../css/style.css"/>
+        <link rel="stylesheet" href="../css/responsive.css"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
     </head>
     <body class="contact-page">
         <div class="middle">

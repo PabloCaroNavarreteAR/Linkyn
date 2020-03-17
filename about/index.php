@@ -6,6 +6,8 @@
         <title>Línkyn Real State | Sobre Nosotros</title>
         <link rel="stylesheet" href="../css/bootstrap.css" />
         <link rel="stylesheet" href="../css/style.css"/>
+        <link rel="stylesheet" href="../css/responsive.css"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
     </head>
     <body class="contact-page">
         <div class="middle">

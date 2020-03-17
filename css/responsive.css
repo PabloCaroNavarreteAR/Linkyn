@@ -1,0 +1,1035 @@
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  body.home {
+    background-size: cover;
+  }
+  body.home .top header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body.home .middle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 70vh;
+  }
+  body.home .middle .main-menu .nav-toggler {
+    margin: 50px;
+  }
+  body.home .middle .main-menu ul li a {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  body.home .middle nav ul li a {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  body.home .bottom footer img {
+    width: 20vh;
+  }
+  body.project-page .middle .content .main-menu .nav-toggler {
+    margin: 50px;
+  }
+  body.project-page .middle .content .carousel {
+    height: 100vh;
+  }
+  body.project-page .middle .content .carousel .carousel-inner {
+    height: 100%;
+  }
+  body.project-page .middle .content .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  body.project-page .middle .content .carousel .carousel-inner .carousel-item .big-one img {
+    width: initial !important;
+    height: 100%;
+  }
+  body.project-page .middle .content .carousel .carousel-inner .carousel-item .big-one img .carousel-caption {
+    left: 20vw;
+    right: 20vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body.project-page .middle .content .carousel .carousel-inner .carousel-item .big-one img .carousel-caption span.top-tittle {
+    font-size: 2rem;
+  }
+  body.project-page .middle .content .carousel .carousel-inner .carousel-item .big-one img .carousel-caption h2 {
+    font-size: 5rem;
+  }
+  body.project-page .bottom footer img {
+    width: 20vh;
+  }
+  body.project-detail-page .middle {
+    height: 100vh;
+  }
+  body.project-detail-page .middle .carousel {
+    height: 100vh;
+  }
+  body.project-detail-page .middle .carousel .carousel-inner {
+    height: 100%;
+  }
+  body.project-detail-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  body.project-detail-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    height: 100%;
+  }
+  body.project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption span.top-tittle {
+    font-size: 2rem;
+  }
+  body.project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+    font-size: 5rem;
+  }
+  body.contact-page .middle .carousel {
+    height: 100vh;
+  }
+  body.contact-page .middle .carousel .carousel-inner {
+    height: 100vh;
+  }
+  body.contact-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100vh;
+  }
+  body.contact-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    height: 100%;
+  }
+  body.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    top: 25vh;
+  }
+  body.prensa-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    right: 20vw;
+    left: 20vw;
+    top: 20vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  body.home {
+    background-size: cover;
+  }
+  body.home .top header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body.home .middle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 70vh;
+  }
+  body.home .middle .main-menu .nav-toggler {
+    margin: 50px;
+  }
+  body.home .middle .main-menu ul li a {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  body.home .middle nav ul li a {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  body.home .bottom footer img {
+    width: 20vh;
+  }
+  body.contact-page .middle .carousel {
+    height: 70vh;
+  }
+  body.contact-page .middle .carousel .carousel-inner {
+    height: 70vh;
+  }
+  body.contact-page .middle .carousel .carousel-inner .carousel-item {
+    height: 70vh;
+  }
+  body.contact-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    height: 100%;
+  }
+  body.prensa-page .middle .carousel {
+    height: 70vh;
+  }
+  body.prensa-page .middle .carousel .carousel-inner {
+    height: 70vh;
+  }
+  body.prensa-page .middle .carousel .carousel-inner .carousel-item {
+    height: 70vh;
+  }
+  body.prensa-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    left: 10vw;
+    right: 10vw;
+    top: 20vh;
+    bottom: 20vh;
+  }
+  body.prensa-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+  }
+  body.project-page .middle .content .carousel {
+    height: 100vh;
+  }
+  body.project-page .middle .content .carousel .carousel-inner {
+    height: 100%;
+  }
+  body.project-page .middle .content .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  body.project-page .middle .content .carousel .carousel-inner .carousel-item .big-one img {
+    width: initial !important;
+    height: 100%;
+  }
+  body.project-page .middle .content .carousel .carousel-inner .carousel-item .big-one .carousel-caption {
+    left: 20vw;
+    right: 20vw;
+  }
+  body.project-page .middle .content .carousel .carousel-inner .carousel-item .big-one .carousel-caption span.top-tittle {
+    font-size: 2rem;
+  }
+  body.project-page .middle .content .carousel .carousel-inner .carousel-item .big-one .carousel-caption h2 {
+    font-size: 5rem;
+  }
+  body.project-page .bottom footer img {
+    width: 20vh;
+  }
+  body.project-detail-page .middle {
+    height: 100vh;
+  }
+  body.project-detail-page .middle .carousel {
+    height: 100vh;
+  }
+  body.project-detail-page .middle .carousel .carousel-inner {
+    height: 100%;
+  }
+  body.project-detail-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  body.project-detail-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    height: 100%;
+  }
+  body.project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption span.top-tittle {
+    font-size: 2rem;
+  }
+  body.project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+    font-size: 5rem;
+  }
+  body.project-detail-page .description .first-description .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body.project-detail-page .description .first-description .row div {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center;
+  }
+  body.project-detail-page .description .first-description .row div .inner h3 {
+    text-align: center;
+  }
+  body.project-detail-page .description .first-description .row div .inner h3 span {
+    text-align: center;
+  }
+}
+
+/*ipads*/
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .home {
+    background-size: cover;
+  }
+  .project-page .middle .content .navbar .navbar-toggler {
+    margin: 50px;
+  }
+  .project-page .middle .content .carousel, .project-page .middle .content .carousel-inner, .project-page .middle .content .carousel-item {
+    height: 100vh;
+  }
+  .project-page .middle .content .carousel a.big-one img, .project-page .middle .content .carousel-inner a.big-one img, .project-page .middle .content .carousel-item a.big-one img {
+    width: initial !important;
+    max-width: initial;
+    height: 100%;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption {
+    right: 20vw;
+    left: 20vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .project-detail-page .middle .carousel {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    width: 70vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .project-detail-page .description .first-description .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .project-detail-page .description .first-description .row div {
+    width: initial !important;
+    max-width: initial !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  body.contact-page .middle .carousel, body.contact-page .middle .carousel-inner, body.contact-page .middle .carousel-item {
+    height: 100vh;
+  }
+  body.contact-page .middle .carousel img, body.contact-page .middle .carousel-inner img, body.contact-page .middle .carousel-item img {
+    width: initial !important;
+  }
+  body.prensa-page .middle .carousel, body.prensa-page .middle .carousel-inner, body.prensa-page .middle .carousel-item {
+    height: 100vh;
+  }
+  body.prensa-page .middle .carousel img, body.prensa-page .middle .carousel-inner img, body.prensa-page .middle .carousel-item img {
+    width: initial !important;
+  }
+  body.prensa-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    left: 10vw;
+    right: 10vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  body.contact-page .middle .navbar .navbar-brand {
+    background: url("../img/iso-white.svg") no-repeat;
+  }
+  body.contact-page .middle .carousel, body.contact-page .middle .carousel-inner, body.contact-page .middle .carousel-item {
+    height: 100vh;
+  }
+  body.contact-page .middle .carousel img, body.contact-page .middle .carousel-inner img, body.contact-page .middle .carousel-item img {
+    width: initial !important;
+  }
+  body.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    bottom: 20vh;
+    top: 20vh;
+    right: 10vw;
+    left: 10vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: auto;
+  }
+  body.contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    position: relative;
+    top: 0px;
+    padding-top: 20px;
+  }
+  body.contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
+    width: 100%;
+  }
+  body.contact-page .middle .carousel .carousel-inner .carousel-item .mapa iframe {
+    width: 100%;
+  }
+  body.contact-page .bottom {
+    width: 100%;
+    background: white;
+  }
+  .description .last-description .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .description .last-description .row div {
+    width: 100% !important;
+    max-width: initial !important;
+    margin: 10px;
+  }
+}
+
+/* Landscape */
+/* iphone x*/
+/* iphone */
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .home {
+    background-size: cover;
+  }
+  .home .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home .middle {
+    -ms-flex-item-align: center;
+        align-self: center;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .home .middle nav ul li a.title-style {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .project-page .middle .content .carousel, .project-page .middle .content .carousel-inner, .project-page .middle .content .carousel-item {
+    height: 100vh;
+  }
+  .project-page .middle .content .carousel img, .project-page .middle .content .carousel-inner img, .project-page .middle .content .carousel-item img {
+    width: initial !important;
+    height: 100%;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .project-page .middle .content .carousel .carousel-indicators {
+    bottom: 20vh;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    left: 5vw;
+    top: 20vh;
+    right: 5vw;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption span, .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+    text-align: center;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item img {
+    width: 100% !important;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .project-detail-page .middle .carousel {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    height: 100%;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    width: auto;
+    right: 5vw;
+    left: 5vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .project-detail-page .description .first-description .row div .inner h3 {
+    font-size: 90px;
+  }
+  .project-detail-page .description .first-description .row div .inner p {
+    text-align: center;
+  }
+  .contact-page .middle nav.navbar .navbar-brand {
+    background: url("../img/iso-white.svg") no-repeat;
+  }
+  .contact-page .middle .carousel {
+    height: 100vh;
+  }
+  .contact-page .middle .carousel .carousel-inner {
+    height: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    height: 100%;
+    -webkit-transform: translateX(-100vh);
+            transform: translateX(-100vh);
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    width: auto;
+    left: 2vw;
+    right: 2vw;
+    top: 20vh;
+    bottom: 20vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    position: relative;
+    top: 0;
+  }
+  .contact-page .description {
+    height: initial;
+  }
+  .contact-page .description .last-description .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-page .description .last-description .row div {
+    width: 100%;
+    max-width: initial !important;
+    margin-bottom: 10px;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
+    width: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa iframe {
+    width: 100%;
+    float: none;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 15vh;
+    padding-top: 0px;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-page .bottom {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  .prensa-page .carousel {
+    height: 100vh;
+  }
+  .prensa-page .carousel .carousel-inner {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item img {
+    height: 100%;
+    width: initial !important;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    right: 5vw !important;
+    left: 5vw !important;
+  }
+  .prensa-page .description .last-description .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .prensa-page .description .last-description .row div {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .project-page .middle .content .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .home {
+    background-size: cover;
+  }
+  .home .middle {
+    height: initial;
+  }
+  .home .middle nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home .middle nav ul li {
+    margin: 10px;
+  }
+  .home .middle nav ul li a.title-style {
+    font-size: 1.8rem;
+  }
+  .project-detail-page .middle .carousel {
+    height: 110vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner {
+    height: 100%;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item img {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    width: 100%;
+    height: auto;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    bottom: 0px;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    padding: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .contact-page .middle .carousel {
+    height: auto;
+    overflow: scroll;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item {
+    overflow: scroll;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
+    width: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa iframe {
+    width: 100%;
+    float: none;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item img {
+    width: 100% !important;
+    height: auto;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .prensa-page .carousel, .prensa-page .carousel-inner, .prensa-page .carousel-item {
+    height: initial !important;
+    overflow: scroll;
+  }
+  .prensa-page .carousel .carousel-inner {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item img {
+    height: auto;
+    width: 100% !important;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 20vh;
+    display: block !important;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    right: 5vw !important;
+    left: 5vw !important;
+  }
+}
+
+/*  */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home {
+    background-size: cover;
+  }
+  .home .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home .middle {
+    -ms-flex-item-align: center;
+        align-self: center;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .home .middle nav ul li a.title-style {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .project-page .middle .content .carousel, .project-page .middle .content .carousel-inner, .project-page .middle .content .carousel-item {
+    height: 100vh;
+  }
+  .project-page .middle .content .carousel img, .project-page .middle .content .carousel-inner img, .project-page .middle .content .carousel-item img {
+    width: initial !important;
+    height: 100%;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .project-page .middle .content .carousel .carousel-indicators {
+    bottom: 20vh;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    left: 5vw;
+    top: 20vh;
+    right: 5vw;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption span, .project-page .middle .content .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+    text-align: center;
+  }
+  .project-page .middle .content .carousel .carousel-inner .carousel-item img {
+    width: 100% !important;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .project-detail-page .middle .carousel {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    height: 100%;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    width: auto;
+    right: 5vw;
+    left: 5vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .project-detail-page .description .first-description .row div .inner h3 {
+    font-size: 90px;
+  }
+  .project-detail-page .description .first-description .row div .inner p {
+    text-align: center;
+  }
+  .contact-page .middle nav.navbar .navbar-brand {
+    background: url("../img/iso-white.svg") no-repeat;
+  }
+  .contact-page .middle .carousel {
+    height: 100vh;
+  }
+  .contact-page .middle .carousel .carousel-inner {
+    height: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    height: 100%;
+    -webkit-transform: translateX(-100vh);
+            transform: translateX(-100vh);
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    width: auto;
+    left: 2vw;
+    right: 2vw;
+    top: 20vh;
+    bottom: 20vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    position: relative;
+    top: 0;
+  }
+  .contact-page .description {
+    height: initial;
+  }
+  .contact-page .description .last-description .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-page .description .last-description .row div {
+    width: 100%;
+    max-width: initial !important;
+    margin-bottom: 10px;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
+    width: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa iframe {
+    width: 100%;
+    float: none;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 15vh;
+    padding-top: 0px;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-page .bottom {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  .prensa-page .carousel {
+    height: 100vh;
+  }
+  .prensa-page .carousel .carousel-inner {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item img {
+    height: 100%;
+    width: initial !important;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    right: 5vw !important;
+    left: 5vw !important;
+  }
+  .prensa-page .description .last-description .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .prensa-page .description .last-description .row div {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .project-page .middle .content .carousel .carousel-inner .carousel-item img {
+    width: initial !important;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .home {
+    background-size: cover;
+  }
+  .home .middle {
+    height: initial;
+  }
+  .home .middle nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home .middle nav ul li {
+    margin: 10px;
+  }
+  .home .middle nav ul li a.title-style {
+    font-size: 1.8rem;
+  }
+  .project-detail-page .middle .carousel {
+    height: 110vh;
+  }
+  .project-detail-page .middle .carousel .carousel-inner {
+    height: 100%;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item img {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    width: 100%;
+    height: auto;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption {
+    bottom: 0px;
+  }
+  .project-detail-page .middle .carousel .carousel-inner .carousel-item .carousel-caption .inner {
+    padding: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .contact-page .middle .carousel {
+    height: auto;
+    overflow: scroll;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item {
+    overflow: scroll;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa {
+    width: 100%;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item .mapa iframe {
+    width: 100%;
+    float: none;
+  }
+  .contact-page .middle .carousel .carousel-inner .carousel-item img {
+    width: 100% !important;
+    height: auto;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .prensa-page .carousel, .prensa-page .carousel-inner, .prensa-page .carousel-item {
+    height: initial !important;
+    overflow: scroll;
+  }
+  .prensa-page .carousel .carousel-inner {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item img {
+    height: auto;
+    width: 100% !important;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .prensa-page .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 20vh;
+    display: block !important;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    right: 5vw !important;
+    left: 5vw !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
